@@ -7,13 +7,15 @@
 
 .navbar {
     position: fixed;
-    top: -50px; /* Menüyü 10 piksel yukarı kaydırır */
+    top: -50px;
+    /* Menüyü 10 piksel yukarı kaydırır */
     left: 0;
     width: 100%;
     opacity: 0.7;
     background-color: transparent;
     padding-bottom: 16px;
-    z-index: 100; /* Diğer menü öğelerinden üstte olmasını sağlar */
+    z-index: 100;
+    /* Diğer menü öğelerinden üstte olmasını sağlar */
 }
 
 .navbar a {
@@ -39,8 +41,10 @@
 }
 
 .menu {
-    padding-top: 60px; /* Menüyü biraz daha yukarı kaydırmak için artırıldı */
-    z-index: 99; /* Navbar'dan daha altta olmasını sağlar */
+    padding-top: 60px;
+    /* Menüyü biraz daha yukarı kaydırmak için artırıldı */
+    z-index: 99;
+    /* Navbar'dan daha altta olmasını sağlar */
 }
 
 .menu a {
@@ -63,11 +67,11 @@
 .kahramanmaras {
     width: 100%;
     height: auto;
-opacity: 0.9;
+    opacity: 0.9;
 }
 
 body {
-    background-color:rgb(195, 209, 213);
+    background-color: rgb(195, 209, 213);
     background-image: url(genel.jpg);
     background-attachment: fixed;
 }
@@ -77,10 +81,10 @@ body {
     margin-left: 180px;
 }
 
-.hakkimda h3 {  
-    font-weight:300;
+.hakkimda h3 {
+    font-weight: 300;
     font-style: oblique;
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -93,4 +97,19 @@ body {
     background-color: rgb(26, 26, 26);
 }
 
+.hobi {
+    margin-top: 20px;
+    background-color: grey;
+    border: 3px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
 
+.ozgecmis {
+    margin-left: 50px;
+    background-color: grey;
+}
+.ozgecmis a {
+    text-decoration: none;
+}
