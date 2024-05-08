@@ -92,7 +92,10 @@ body {
     padding-inline: 5px;
 }
 
-.end {
+.footer {
+    padding-top: 30px;
+    padding-left: 20px;
+    color: bisque;
     height: 100px;
     background-color: rgb(26, 26, 26);
 }
@@ -106,10 +109,35 @@ body {
     padding-left: 30px;
 }
 
-.ozgecmis {
-    margin-left: 50px;
-    background-color: grey;
+
+.cv {
+    padding: 2px 5px;
+    margin-left: 70px;
+    color: bisque;
+    display: inline-block;
+    background-color: rgb(26, 26, 26);
 }
-.ozgecmis a {
+
+.cv a {
     text-decoration: none;
+    color: bisque;
+}
+
+.cv a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.footer a {
+    margin-right: 15px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: blueviolet;
+}
+
+.sag {
+    float: right;
+    padding-right: 20px;
 }
