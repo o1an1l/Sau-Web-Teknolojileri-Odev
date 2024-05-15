@@ -220,16 +220,6 @@ body {
     margin-left: 30px;
 }
 
-section {
-    padding: 100px 0;
-}
-
-.max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
-
 section .title {
     position: relative;
     text-align: center;
@@ -267,8 +257,18 @@ section .title::after {
 
 }
 
+section {
+    padding: 100px 0;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 .contact .contact-content .column {
-    width: calc(50% - 30px);
+    width: calc(60% - 30px);
 }
 
 .contact .contact-content .text {
@@ -277,12 +277,12 @@ section .title::after {
     margin-bottom: 10px;
 }
 
-.contact .right form .fields {
+.contact .right form .alanlar {
     display: flex;
 }
 
 .contact .right form .field,
-.contact .right form .fields .field {
+.contact .right form .alanlar .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
@@ -343,4 +343,4 @@ section .title::after {
 .btn:hover {
     color: crimson;
     background: none;
-}
+}  
