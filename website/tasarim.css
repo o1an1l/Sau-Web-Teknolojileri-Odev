@@ -344,3 +344,145 @@ section {
     color: crimson;
     background: none;
 }  
+
+
+.cv-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidebar stil */
+.cv-sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.cv-photo {
+    width: 100%;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.cv-sidebar-content {
+    text-align: center;
+}
+
+.cv-sidebar-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cv-sidebar-text {
+    margin: 5px 0;
+}
+
+/* Main content stil */
+.cv-main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cv-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cv-name {
+    font-size: 2em;
+}
+
+.cv-job, .cv-contact {
+    margin: 5px 0;
+}
+
+.cv-main {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.cv-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-section-title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.cv-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-list-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cv-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Login form stil */
+.login-container {
+    padding: 20px;
+}
+
+.login-form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-field {
+    margin-bottom: 15px;
+}
+
+.login-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-field input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #555;
+}
