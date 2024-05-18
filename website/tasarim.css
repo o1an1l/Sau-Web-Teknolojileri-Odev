@@ -140,6 +140,8 @@ body {
 }
 
 .slider {
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
     margin-top: 40px;
     position: relative;
     width: 800px;
@@ -207,6 +209,7 @@ body {
 }
 
 .bilgi {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     height: 84%;
     color: rgb(215, 215, 215);
     margin: 20px;
@@ -437,52 +440,53 @@ section {
     color: #fff;
 }
 
-
-/* Login form stil */
 .login-container {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
 .login-form {
-    width: 300px;
-    background-color: #fff;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
 
 .login-title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .login-field {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .login-field label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
-.login-field input {
+.login-field input{
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
     border-radius: 4px;
 }
 
 .login-button {
     width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+    padding: 0.5rem;
+    background-color: #007bff;
     border: none;
+    color: #ffffff;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .login-button:hover {
-    background-color: #555;
+    background-color: #0056b3;
 }
+
