@@ -15,7 +15,6 @@
     background-color: transparent;
     padding-bottom: 16px;
     z-index: 100;
-    /* Diğer menü öğelerinden üstte olmasını sağlar */
 }
 
 .navbar a {
@@ -97,24 +96,6 @@ body {
     height: 100px;
     background-color: rgb(26, 26, 26);
 }
-
-.hobi {
-    margin-top: 20px;
-    background-color: grey;
-    border: 3px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-}
-
-.cv {
-    padding: 2px 5px;
-    margin-left: 70px;
-    color: bisque;
-    display: inline-block;
-    background-color: rgb(26, 26, 26);
-}
-
 .cv a {
     text-decoration: none;
     color: bisque;
@@ -209,7 +190,7 @@ body {
 }
 
 .bilgi {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(49, 2, 169, 0.7);
     height: 84%;
     color: rgb(215, 215, 215);
     margin: 20px;
@@ -218,10 +199,10 @@ body {
     padding: 20px 20px;
     background-color: rgb(85, 99, 142);
 }
-
+ 
 .miras {
     margin-left: 30px;
-}
+} 
 
 section .title {
     position: relative;
@@ -490,3 +471,57 @@ section {
     background-color: #0056b3;
 }
 
+.card {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);;
+    background-color: #333;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #b20101;
+}
+
+.card-text {
+    color: #b3b4b5;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#movieTitle {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#search {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#search:hover {
+    background-color: #0056b3;
+}
+.movieBox {
+    text-align: center;
+    margin-top: 20px;
+}
+.movieBox img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+.error-message {
+    color: red;
+    margin-top: 20px;
+}
